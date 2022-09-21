@@ -28,7 +28,6 @@
   "devDependencies": {
     "@babel/cli": "^7.18.10",
     "@babel/core": "^7.19.1",
-    "@babel/preset-env": "^7.19.1",
-    "generate-license-file": "^2.0.0"
+    "@babel/preset-env": "^7.19.1"
   }
 }
