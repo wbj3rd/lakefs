@@ -1,26 +1,34 @@
 {
   "name": "lakefs",
-  "version": "1.0.20",
+  "version": "1.0.26",
   "description": "",
+  "repository": {
+    "url": "https://github.com/wbj3rd/lakefs"
+  },
   "main": "index.js",
   "types": "lakefs.d.ts",
+  "readme": "README.md",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src -d dist"
+    "build": "babel src -d dist",
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "lakeFS",
+    "upload"
+  ],
+  "author": "Walter Johnson",
   "license": "ISC",
   "dependencies": {
     "@aws-sdk/client-s3": "^3.171.0",
     "@aws-sdk/credential-providers": "^3.171.0",
-    "boilerplate-readme-template": "^1.0.1",
     "multer": "^1.4.5-lts.1",
     "multer-s3": "^3.0.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.18.10",
     "@babel/core": "^7.19.1",
-    "@babel/preset-env": "^7.19.1"
+    "@babel/preset-env": "^7.19.1",
+    "generate-license-file": "^2.0.0"
   }
 }
